@@ -1,0 +1,266 @@
+
+/* wyatt's css code */
+ /* login page  */
+h1{
+  text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+  color: red;
+  font-size: 4em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  margin-top: 150px;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+.animate{
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+.quote {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+.btn{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px!important;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#login1 {
+  text-align: center;
+}
+
+#btnOne {
+  margin-left: 655px!important;
+}
+
+#wrapper {
+  margin-top: 25px;
+}
+
+body {
+  background-image: url("../styles/5cf2660af5f4214def7166dc7a7c8062.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+footer{
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  margin-top: 100px;
+  border-top: 2px solid red;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0px;
+
+}
+/* footr*/.login{ 
+  background-color: rgb(46, 45, 45);
+  height: 60px;
+  width: 100%;
+  margin-top: 100px;
+  border-top: 2px solid red;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0px;
+}
+
+/* Home page  */
+
+.userh1 {
+  margin-top: 15px!important;
+}
+
+#add-pic{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+}
+
+#picLink {
+  margin-right: 50px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+#picTitle {
+  width: 250px;
+  border-radius: 5px;
+
+}
+
+#chat {
+  margin-bottom: 0px;
+}
+
+.chatNames {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#add-chat{
+  margin-left: 0px;
+  border: solid 1px darkblue;
+  margin-top: 0px;
+}
+
+.container {
+  width: 100%;
+}
+#chatBox{
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#chat-area{
+  overflow: auto;
+  height: 340px;
+  font-size: 12px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.card-header {
+  color: #ffffff;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 4px 4px 20px red;
+}
+
+#boximg img {
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 378px;
+  max-width: 660px;
+  overflow: hidden;
+}
+
+#picBox {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#picBoxCard {
+  margin-bottom: -5px;
+  margin-top: 10px;
+  height: 500px;
+}
+
+@media (max-width: 1200px) {
+  #boximg img {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 378px;
+    max-width: 510px;
+    overflow: hidden;
+  }
+
+  #add-pic{
+    margin-right: 50px;
+  }
+  
+  #picLink {
+    margin-right: 50px;
+    width: 180px;
+  }
+  
+  #picTitle {
+    width: 180px;
+  }
+
+  body {
+    background-size: cover;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  #boximg img {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 378px;
+    max-width: 410px;
+    overflow: hidden;
+  }
+
+  #add-pic{
+    margin-right: 25px;
+  }
+  
+  #picLink {
+    margin-right: 25px;
+    width: 125px;
+  }
+  
+  #picTitle {
+    width: 125px;
+  }
+
+
+}
+
+@media screen and (max-width: 480px) {
+  #boximg img {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 378px;
+    max-width: 280px;
+    overflow: hidden;
+  }
+
+  #add-pic{
+    margin-right: 25px;
+  }
+  
+  #picLink {
+    margin-right: 25px;
+    width: 75px;
+  }
+  
+  #picTitle {
+    width: 75px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+}

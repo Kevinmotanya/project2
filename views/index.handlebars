@@ -1,0 +1,22 @@
+<div class="container" id="login1">
+  <div class="row">
+    <div class="col-md-12">
+      {{#if loggedIn}}
+      <a href="/logout"><button class="btnOne btn-md btn-danger" id="login">Log Out</button></a>
+      <li class="nav-item">
+        <a class="nav-link" href="/logout">Log Out</a>
+        {{else}}
+        <h1 class="animate" class="bounceInDown">P i c C y c l e r !</h1>
+        <p class="quote">"Take a picture, it will last longer."</p>
+        <div id="box"></div>
+        <a href="/login"><button type="button" class="btn btn-light">Log In</button></a>
+        {{/if}}
+    </div>
+  </div>
+</div>
+
+<footer class="login">
+  Copyright &copy;
+</footer>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
